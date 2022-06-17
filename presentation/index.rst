@@ -7,11 +7,19 @@
 .. role:: yellow
     :class: yellow
 
+
+.. role:: info
+    :class: info
+
 Nuts and Bolts
 ==============
 
 .. image:: /_static/useblocks_logo.png
-   :scale: 10%
+   :scale: 20%
+
+.. container:: info
+
+   Navigation: :ub:`←→` Chapters,  :ub:`↑↓` Details
 
 
 .. include:: slides/who.rst
