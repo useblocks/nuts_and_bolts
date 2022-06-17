@@ -68,9 +68,9 @@ jobs:
 
       # Build presentation
       - uses: ammaraskar/sphinx-problem-matcher@master
-      - name: Build Sphinx presentations
+      - name: Build Sphinx presentation
         run: |
-          cd presentations
+          cd presentation
           make revealjs
 
       # Clone and set up the old gh-pages branch
@@ -89,7 +89,7 @@ jobs:
           contains(github.event_name, 'push')
         run: |
           set -x
-          rsync -a presentations/_build/revealjs/ _gh-pages/
+          rsync -a presentation/_build/revealjs/ _gh-pages/
 
       # Add the .nojekyll file
       - name: nojekyll
