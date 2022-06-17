@@ -1,14 +1,12 @@
+.. role:: ub
+    :class: ub-style
+
 Nuts and Bolts
 ==============
 
 .. image:: /_static/useblocks_logo.png
-   :scale: 30%
+   :scale: 20%
 
 
-What we do
-----------
-Tool development for engineering related companies.
-
-.. container:: small
-
-   Our solutions help engineers to build better products faster.
+.. include:: slides/who.rst
+.. include:: slides/what.rst

@@ -10,7 +10,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
@@ -53,3 +53,44 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+revealjs_style_theme = "night"
+revealjs_static_path = ['_static']
+revealjs_css_files = ['custom.css']
+
+revealjs_script_conf = """
+{
+    controls: true,
+    transition: 'slide',
+    progress: true,
+    history: true,
+    keyboard: true,
+    preloadIframes: true,
+}
+"""
+
+revealjs_script_plugins = [
+    {
+        "name": "RevealNotes",
+        "src": "revealjs4/plugin/notes/notes.js",
+    },
+    # {
+    #     "name": "RevealHighlight",
+    #     "src": "revealjs4/plugin/highlight/highlight.js",
+    # },
+]
+
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+local_plantuml_path = os.path.join(os.path.dirname(__file__), "utils", "plantuml.jar")
+
+if on_rtd:
+    # Deactivated using rtd plantuml version as it looks quite old.
+    # plantuml = 'java -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar'
+    plantuml = 'java -Djava.awt.headless=true -jar {}'.format(local_plantuml_path)
+else:
+    plantuml = 'java -jar {}'.format(local_plantuml_path)
+
+# plantuml_output_format = 'png'
+plantuml_output_format = 'svg_img'
+
