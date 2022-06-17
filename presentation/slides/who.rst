@@ -24,7 +24,7 @@ Locations
 Nationalities
 ~~~~~~~~~~~~~
 
-| 2 German
+| 3 German
 | 1 Chinese
 | 1 Taiwanese
 | 1 Hungarian
