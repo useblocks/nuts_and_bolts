@@ -33,4 +33,4 @@ That's it
 :ub:`Thanks!`
 
 .. image:: /_static/useblocks_logo.png
-   :scale: 5%
+   :scale: 10%
