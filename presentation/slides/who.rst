@@ -3,6 +3,8 @@ Who we are
 
 100% engineers :ub:`⚙♥`
 
+> :ub:`10` years in business
+
 Numbers
 ~~~~~~~
 
@@ -28,6 +30,4 @@ Nationalities
 | 1 Hungarian
 | 1 Ghanaian
 | --------------------------------
-Company language: :ub:`English`
-
-
+| Company language: :ub:`English`

@@ -44,6 +44,21 @@ div.left {
     text-align: left;
 }
 
+div.bleft {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.white {
+  color: transparent;
+  text-shadow: 0 0 0 #ffffff;
+}
+
+.yellow {
+  color: transparent;
+  text-shadow: 0 0 0 #ffcc00;
+}
+
 /*div.story {*/
 /*    color: #FFCC00*/
 /*}*/
