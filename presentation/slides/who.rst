@@ -1,7 +1,7 @@
 Who we are
 ----------
 
-100% engineers :ub:`⚙♥`
+100% engineers :yellow:`⚙♥`
 
 > :ub:`10` years in business
 
